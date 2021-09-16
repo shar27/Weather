@@ -1,0 +1,117 @@
+body {
+    
+   
+    margin-left: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    
+}
+
+
+
+h1 {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+h2 {
+    
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+.background {
+   
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+
+form {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    
+}
+
+button {
+    width: 100px;
+    border-radius: 50px;
+    background-color: blue;
+    color: white;
+    margin-left: 10px;
+    z-index: 1;
+    position: relative;
+}
+
+input {
+    padding: 5px;
+    z-index: 1;
+    position: relative;
+}
+
+
+p {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    color:whitesmoke;
+ 
+}
+
+
+img {
+    
+    display: flex;
+    justify-content: center;
+    border: none;
+    color: white;
+
+    width: 300px;
+    height: 200px;
+    z-index: 1;
+    position: relative;
+  
+}
+
+.weather {
+    display: grid;
+    justify-content: center;
+  
+    width: 300px;
+    
+    border: solid 5px;
+    border-radius: 50px;
+    border-color: white;
+    z-index: 3;
+    position: relative;
+
+}
+
+footer {
+    text-align: center;
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+footer > a {
+    padding: 20px;
+    position: relative;
+}

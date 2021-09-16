@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+   <h1>Welcome to my weather App </h1>
+  <h2>Start by entering your city and pressing the submit button</h2>
+
+
+<div>
+<img class = "background" src="bg.jpg" alt="weather"> 
+</div>
+  
+  <form action="">
+  <input type="text" placeholder="Enter your city" id="name">
+  
+  <button type="submit" id="submit">submit</button>
+
+  </form>
+  <div class="weather" >
+      <p id="city"></p>
+      <p id="weather"></p>
+      <p id="temp"></p>
+      <p id="description"></p>
+      <img id="img" src="" alt="weather"></p>
+    </div>
+
+    <footer>
+      <a href="https://github.com/shar27/"><i class="bi-github" style="font-size: 2rem; color: black;" role="img" aria-label="GitHub"></i></a>
+      <span>Copyright Shar</span>
+      <a href="https://www.linkedin.com/in/shar-ahmed"><i class="bi bi-linkedin" style="font-size: 2rem; color: black;"></i></a>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>
