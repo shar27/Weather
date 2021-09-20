@@ -14,21 +14,18 @@
 
 <body>
 
-   <h1>Welcome to my weather App </h1>
-  <h2>Start by entering your city and pressing the submit button</h2>
+  
 
 
-<div>
-<img class = "background" src="bg.jpg" alt="weather"> 
-</div>
+<div class="hero" >
   
   <form action="">
-  <input type="text" placeholder="Enter your city" id="name">
+    <input type="text" placeholder="Enter your city" id="name">
+    <button type="submit" id="submit">submit</button>
+    </form>
   
-  <button type="submit" id="submit">submit</button>
-
-  </form>
-  <div class="weather" >
+<!-- JS output -->
+<div class="weather" >
       <p id="city"></p>
       <p id="weather"></p>
       <p id="temp"></p>
@@ -36,11 +33,16 @@
       <img id="img" src="" alt="weather"></p>
     </div>
 
-    <footer>
-      <a href="https://github.com/shar27/"><i class="bi-github" style="font-size: 2rem; color: black;" role="img" aria-label="GitHub"></i></a>
-      <span>Copyright Shar</span>
-      <a href="https://www.linkedin.com/in/shar-ahmed"><i class="bi bi-linkedin" style="font-size: 2rem; color: black;"></i></a>
-    </footer>
+  </div>
+<div class="heading" >
+  <h1>Welcome to my weather App </h1>
+  <h2>Start by entering your city and pressing the submit button</h2>
+</div>
+  <div class="clouds">
+<div class="cloud" ></div>
+
+</div>
+ 
   <script src="script.js"></script>
 </body>
 </html>
