@@ -7,64 +7,62 @@ body {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    background-color: skyblue;
 
     
 }
 
 
 
-h1 {
-    display: flex;
-    padding: 10px;
-    justify-content: center;
+.heading h1, h2{
+display: flex;
+text-align: center;
+color: navajowhite;
+justify-content: center;
+z-index: 1;
+
 }
 
-h2 {
-    
-    display: flex;
-    padding: 10px;
-    justify-content: center;
-}
-
-
-.background {
-   
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    position: fixed;
-}
-
-
-form {
-    padding: 80px;
+.hero > form {
     display: flex;
     justify-content: center;
-    z-index: 1;
-    position: relative;
+    padding: 30px;
     
 }
 
-button {
-    width: 100px;
+
+form > input {
+    padding: 20px;
+    border: whitesmoke solid 1px;
     border-radius: 50px;
-    background-color: blue;
-    color: white;
-    margin-left: 10px;
-    z-index: 1;
-    position: relative;
+    
 }
 
-input {
-    padding: 5px;
-    z-index: 1;
-    position: relative;
+form > button {
+    background-color: transparent;
+    border: white solid 3px;
+    border-radius: 50px;
+    margin: 10px;
 }
 
+
+
+.weather {
+    margin-left: 100px;
+    width: 300px;
+    height: 50vh;
+    border: solid 5px;
+    border-radius: 50px;
+    border-color: white;
+    z-index: 0;
+    position: relative;
+
+}
 
 p {
     display: flex;
     justify-content: center;
+    text-align: center;
     z-index: 1;
     position: relative;
     color:whitesmoke;
@@ -72,46 +70,42 @@ p {
 }
 
 
-img {
-    
-    display: flex;
-    justify-content: center;
-    border: none;
-    color: white;
 
-    width: 300px;
-    height: 200px;
-    z-index: 1;
-    position: relative;
-  
-}
 
-.weather {
-    display: grid;
-    justify-content: center;
-  
-    width: 300px;
+
+
+
+.clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
     
-    border: solid 5px;
-    border-radius: 50px;
-    border-color: white;
-    z-index: 3;
-    position: relative;
+    background-size:cover;
+    z-index: -1;
+
 
 }
 
-footer {
-    text-align: center;
-    z-index: 1;
-    position: fixed;
-    background-color: white;
-    text-align: center;
-    color: black;
+.cloud {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    background: url(cloud.png);
+    animation: animate 60s linear infinite;
 }
 
-footer > a {
-    padding: 20px;
-    position: relative;
+@keyframes animate 
+{
+    0% 
+    {
+    background-position: 0px;
+    }
+    100% 
+    {
+    background-position: 1000px;
+    }
 }
