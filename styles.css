@@ -6,7 +6,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     background-color: skyblue;
 
     
@@ -17,8 +17,10 @@ body {
 .heading h1, h2{
 display: flex;
 text-align: center;
+align-items: center;
 color: navajowhite;
 justify-content: center;
+font-weight: 900;
 z-index: 1;
 
 }
@@ -27,7 +29,7 @@ z-index: 1;
     display: flex;
     justify-content: center;
     padding: 30px;
-    
+    font-weight: 900;
 }
 
 
@@ -35,14 +37,16 @@ form > input {
     padding: 20px;
     border: whitesmoke solid 1px;
     border-radius: 50px;
+    font-weight: 600;
     
 }
 
 form > button {
     background-color: transparent;
-    border: white solid 3px;
+    border: none;
     border-radius: 50px;
     margin: 10px;
+    font-weight: 600;
 }
 
 
@@ -59,13 +63,14 @@ form > button {
 
 }
 
-p {
+h5 {
     display: flex;
     justify-content: center;
     text-align: center;
     z-index: 1;
     position: relative;
-    color:whitesmoke;
+    color:white;
+    font-weight: 900;
  
 }
 
