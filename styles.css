@@ -7,7 +7,7 @@ body {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    background-color: skyblue;
+    background-color:midnightblue;
 
     
 }
@@ -18,10 +18,11 @@ body {
 display: flex;
 text-align: center;
 align-items: center;
-color: navajowhite;
+color: whitesmoke;
 justify-content: center;
 font-weight: 900;
 z-index: 1;
+margin-top: 30px;
 
 }
 
@@ -52,12 +53,15 @@ form > button {
 
 
 .weather {
-    margin-left: 100px;
+    margin-left: 550px;
+    margin-top: 100px;
+    padding-top: 50px;
+    text-align: center;
     width: 300px;
     height: 50vh;
-    border: solid 5px;
+    border: solid 1px;
     border-radius: 50px;
-    border-color: white;
+    border-color: whitesmoke;
     z-index: 0;
     position: relative;
 
@@ -69,8 +73,10 @@ h5 {
     text-align: center;
     z-index: 1;
     position: relative;
-    color:white;
+    color:whitesmoke;
     font-weight: 900;
+    margin-right: 20px;
+    
  
 }
 
