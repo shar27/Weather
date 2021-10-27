@@ -14,6 +14,7 @@ body {
 
 
 
+
 .heading h1, h2{
 display: flex;
 text-align: center;
@@ -40,6 +41,7 @@ form > input {
     border-radius: 50px;
     font-weight: 600;
     
+    
 }
 
 form > button {
@@ -48,8 +50,14 @@ form > button {
     border-radius: 50px;
     margin: 10px;
     font-weight: 600;
+    cursor: pointer;
+
 }
 
+button:hover {
+    background-color: white;
+    color: black;
+}
 
 
 .weather {
